@@ -8,7 +8,7 @@ const products = [
     brand: 'OP Violin',
     category: 'E-books',
     price: 9.99,
-    countInStock: 10,
+    countInStock: 0,
     rating: 5.0,
     numReviews: 12,
   },
