@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'OP Violin - Book 1',
     image: '/images/opviolinbook1.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'OP Violin - Book 2',
     image: '/images/opviolinbook2.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'OP Violin - Book 3',
     image: '/images/opviolinbook3.jpg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'OP Violin - Book 4',
     image: '/images/opviolinbook4.jpg',
     description:
