@@ -5,6 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "build": "mesh build",
+    "meshdev": "mesh dev",
+    "meshstart": "mesh start",
+    "validate": "mesh validate",
     "start": "node backend/server",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend",
@@ -16,6 +20,12 @@
   "author": "Arne Tripolone",
   "license": "MIT",
   "dependencies": {
+    "@graphql-mesh/cli": "^0.32.1",
+    "@graphql-mesh/graphql": "^0.18.0",
+    "@graphql-mesh/openapi": "^0.18.0",
+    "@graphql-mesh/runtime": "^0.18.0",
+    "graphql": "^15.5.1",
+    "@graphql-mesh/mongoose": "^0.10.0",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
