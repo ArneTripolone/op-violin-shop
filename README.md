@@ -31,7 +31,6 @@ https://docs.google.com/document/d/16RgxwK2APvGgcdhBEuiPttB9ElfPHYQ-v74-FmHDDaI/
   - npm run dev to start the server and frontend concurrently
 
 ### Screenshots
-  This screencast shows the Readme Generator in use: https://youtu.be/65w2jTWnEkM 
 
 
 ### Licence
