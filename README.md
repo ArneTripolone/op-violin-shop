@@ -5,7 +5,10 @@
 
 
 ### Description
-OP Violin Shop offers violin e-books for purchase. Users sign-up to enable them to add items to a shopping cart and to add ratings/comments on the products. Users marked as Admin are able to check the database of users, products and orders. They are also able to add products and delete users.
+OP Violin Shop offers violin e-books for purchase. The home screen features a carousel of top rated products, a nav bar, search bar, cart and sign in page. Home page also features the latest products. Clicking on a product will render a product image, title, description, rating, count in stock, reviews and allow a user to write a review if logged in. Items added to the cart can have their quantity changed and this will be reflected in the cart price. 
+
+The database contains an admin user also. The admin is able to add products, delete products, view/delete users and view orders. The payment method is currently set to PayPal, although paypal functionality has been disabled. Future implementations will incorperate Stripe to make use of the GraphQL query of the Stripe API.
+
 
 ### Deployed Application
 http://opviolinshop.herokuapp.com/
